@@ -12,7 +12,7 @@ For more info, see [MCR Client Firewall Rules](https://aka.ms/mcr/firewallrules)
 
 # About This Image
 
-This image contains the ASP.NET Core and .NET Core runtimes and libraries and is optimized for running ASP.NET Core apps in production.
+This image contains the .NET interactive tool, jupyter and jupyter lab frontend.
 
 Watch [dotnet/announcements](https://github.com/dotnet/announcements/labels/Docker) for Docker-related .NET announcements.
 
@@ -27,7 +27,7 @@ You can quickly run a container with a pre-built [.NET Core Docker image](https:
 Type the following command to run a sample web application:
 
 ```console
-docker run -it --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp
+docker run --rm -it -p 8888:8888 -p 1100-3000:1100-3000 --name dotnet-interactive-jupyter mcr.microsoft.com/dotnet/interactive/jupyter
 ```
 
 After the application starts, navigate to `http://localhost:8000` in your web browser.

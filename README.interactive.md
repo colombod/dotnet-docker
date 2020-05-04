@@ -8,11 +8,11 @@ For more info, see [MCR Client Firewall Rules](https://aka.ms/mcr/firewallrules)
 # Featured Tags
 
 * `3.1` (LTS/Current)
-  * `docker pull mcr.microsoft.com/dotnet/core/aspnet:3.1`
+  * `docker pull mcr.microsoft.com/dotnet/core/interacgive:3.1`
 
 # About This Image
 
-This image contains the ASP.NET Core and .NET Core runtimes and libraries and is optimized for running ASP.NET Core apps in production.
+This image contains the [dotnet interactive global tool](https://github.com/dotnet/interactive).
 
 Watch [dotnet/announcements](https://github.com/dotnet/announcements/labels/Docker) for Docker-related .NET announcements.
 
@@ -72,16 +72,12 @@ See [Microsoft Support for .NET Core](https://github.com/dotnet/core/blob/master
 
 * [File a .NET Core Docker issue](https://github.com/dotnet/dotnet-docker/issues)
 * [File a .NET Core issue](https://github.com/dotnet/core/issues)
-* [File an ASP.NET Core issue](https://github.com/aspnet/home/issues)
-* [File an issue for other .NET components](https://github.com/dotnet/core/blob/master/Documentation/core-repos.md)
-* [File a Visual Studio Docker Tools issue](https://github.com/microsoft/dockertools/issues)
-* [File a Microsoft Container Registry (MCR) issue](https://github.com/microsoft/containerregistry/issues)
+* [File a .NET interactive issue](https://github.com/dotnet/interactive/issues)
 * [Ask on Stack Overflow](https://stackoverflow.com/questions/tagged/.net-core)
 * [Contact Microsoft Support](https://support.microsoft.com/contactus/)
 
 # License
 
 * [.NET Core license](https://github.com/dotnet/dotnet-docker/blob/master/LICENSE)
+* [.NET interactive license](https://github.com/dotnet/dotnet-docker/blob/master/master/License.txt)
 * [Discover licensing for Linux image contents](https://github.com/dotnet/dotnet-docker/blob/master/documentation/image-artifact-details.md)
-* [Windows Nano Server license](https://hub.docker.com/_/microsoft-windows-nanoserver/) (only applies to Windows containers)
-* [Pricing and licensing for Windows Server 2019](https://www.microsoft.com/cloud-platform/windows-server-pricing)

@@ -1,4 +1,4 @@
-$(McrTagsYmlRepo:sdk)
+$(McrTagsYmlRepo:interactive)
 $(McrTagsYmlTagGroup:3.1-bionic)
 $(McrTagsYmlTagGroup:3.1-bionic-arm64v8)
 $(McrTagsYmlTagGroup:3.1-bionic-arm32v7)

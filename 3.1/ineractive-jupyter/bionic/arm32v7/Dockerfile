@@ -1,7 +1,7 @@
 ARG REPO=mcr.microsoft.com/dotnet/interactive
 FROM $REPO:3.1-bionic-arm32v7
 
-ARG HTTP_PORT_RANGE=1100-1200
+ARG HTTP_PORT_RANGE=1100-3000
 
 # Opt out of telemetry until after we install jupyter when building the image, this prevents caching of machine id
 ENV DOTNET_TRY_CLI_TELEMETRY_OPTOUT=true
